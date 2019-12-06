@@ -7,10 +7,9 @@ def find_max_value(array)
   record = 0
   counter = 0
   
-  while array[counter] { |element|
-    if element > record
-      record = element
-  }
+  while array[counter] do
+    if array[counter] > record
+      record = array[counter]
   
   return record
   
