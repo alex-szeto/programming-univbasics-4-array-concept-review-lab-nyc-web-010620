@@ -10,6 +10,7 @@ def find_max_value(array)
   while array[counter] do
     if array[counter] > record
       record = array[counter]
+    counter += 1
   
   return record
   
