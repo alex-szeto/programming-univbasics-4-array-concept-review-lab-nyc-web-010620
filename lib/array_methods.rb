@@ -5,8 +5,9 @@ end
 def find_max_value(array)
   # Add your solution here
   record = 0
+  counter = 0
   
-  for array.each { |element|
+  while array[counter] { |element|
     if element > record
       record = element
   }
