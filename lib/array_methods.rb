@@ -17,5 +17,13 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  # Add your solution here
+  record = 10000
+  counter = 0
+  
+  while array[counter] do
+    if array[counter] < record
+      record = array[counter]
+    counter += 1
+  
+  return record
 end
